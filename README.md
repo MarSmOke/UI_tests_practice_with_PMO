@@ -1,9 +1,9 @@
-Автотесты для сервиса Яндекс.Самокат:
+Autotests for the Yandex.Scooter service:
 
-- проверка флоу заказа самоката - test_make_order;
-- проверка списка "Важных вопросов" - test_dropdown_list;
-- проверка редиректов - test_redirect.
+- scooter order flow - test_make_order;
+- list of “Important issues” - test_dropdown_list;
+- redirects - test_redirect.
 
-Фикстуры хранятся в conftest, локаторы - в файле locators, результаты прогона тестов - в папке allure_results. \
-Необходима установка allure, selenium, pytest.\
-Используемый браузер - Mozilla Firefox.
+Fixtures are stored in conftest, locators are stored in the locators file, and test run results are stored in the allure_results folder. \
+Requires installation of allure, selenium, pytest.\
+The browser used is Mozilla Firefox.
